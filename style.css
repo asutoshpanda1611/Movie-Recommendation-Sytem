@@ -22,6 +22,10 @@
     justify-content: space-between;
     margin-top: 69px;
   }
+
+  .navbar-container div{
+    font-weight: 500px;
+  }
   
   .grow-list {
     flex-grow: 1;
@@ -46,12 +50,12 @@
   }
   
   .list li:hover {
-    color: #5955b3;
+    color: #ec0e0e;
   }
   
   .nav-button {
     padding: 14px 28px;
-    background-color: #00f1d1;
+    background-color: #e70b0b;
     border: none;
     border-radius: 12px;
     font-family: "Poppins";
@@ -62,27 +66,28 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #f5f1f1;
+    color: #ffffff;
   }
   
   .nav-button:hover{
-    background-color: #13e71e;
-    
+    color: rgb(255, 255, 255);
+    background-color: #000000;
   }
   .banner-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 135px;
     margin-top: 55px;
   }
   
   .heading-text {
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 64px;
     line-height: 74px;
-    color: #3c2f60;
+    color: #f11111;
   }
   
   .heading-text span {
@@ -91,4 +96,5 @@
   
   .btn {
     margin-top: 72px;
+    margin-left: 310px;
   }
